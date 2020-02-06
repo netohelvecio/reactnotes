@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import generateHash from 'random-hash';
+import { toast } from 'react-toastify';
 
 import { Container } from './styles';
 
@@ -53,6 +54,8 @@ export default function Add({ history }) {
     const id = generateHash({ length: 8 });
 
     setNotes(prev => [...prev, { id, title, text, check: false }]);
+
+    toast.success('Note cadastrado com sucesso!');
 
     setText('');
     setTitle('');
