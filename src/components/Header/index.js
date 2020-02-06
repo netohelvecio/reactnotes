@@ -7,11 +7,11 @@ export default function Header() {
   return (
     <Container>
       <NavLink to="/" exact activeStyle={{ color: '#4EA5D9' }}>
-        NOTES
+        NOTES NÃO CHECKADOS
       </NavLink>
 
       <NavLink to="/notescheck" exact activeStyle={{ color: '#4EA5D9' }}>
-        NOTES CHECK
+        NOTES CHECKADOS
       </NavLink>
     </Container>
   );
