@@ -15,6 +15,10 @@ export default function List({ history }) {
     history.push('/add');
   }
 
+  function navigateToEdit(note) {
+    history.push('/edit', note);
+  }
+
   function getNotesLocalStorage() {
     const response = localStorage.getItem('notes');
 
@@ -71,7 +75,7 @@ export default function List({ history }) {
                 <p>{note.text}</p>
 
                 <div>
-                  <button type="button">
+                  <button type="button" onClick={() => navigateToEdit(note)}>
                     <MdModeEdit color="#5f7dec" size={20} />
                   </button>
                   <button type="button">
