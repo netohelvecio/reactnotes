@@ -53,6 +53,9 @@ export default function Add({ history }) {
     const id = generateHash({ length: 8 });
 
     setNotes(prev => [...prev, { id, title, text, check: false }]);
+
+    setText('');
+    setTitle('');
   }
 
   return (
