@@ -53,7 +53,7 @@ export const Container = styled.div`
     }
 
     button[type='submit'] {
-      background: #30cf3d;
+      background: #218f2a;
       font-weight: bold;
       color: #fff;
       border: 0;
@@ -69,7 +69,7 @@ export const Container = styled.div`
       align-items: center;
 
       &:hover {
-        background: ${darken(0.05, '#30cf3d')};
+        background: ${darken(0.05, '#218f2a')};
       }
     }
 

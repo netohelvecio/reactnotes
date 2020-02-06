@@ -38,7 +38,7 @@ export default function List({ history }) {
                 <MdModeEdit color="#5f7dec" size={20} />
               </button>
               <button type="button">
-                <MdCheck color="#30cf3d" size={20} />
+                <MdCheck color="#218f2a" size={20} />
               </button>
             </div>
           </Note>
@@ -58,7 +58,7 @@ export default function List({ history }) {
                 <MdModeEdit color="#5f7dec" size={20} />
               </button>
               <button type="button">
-                <MdCheck color="#30cf3d" size={20} />
+                <MdCheck color="#218f2a" size={20} />
               </button>
             </div>
           </Note>
@@ -78,7 +78,7 @@ export default function List({ history }) {
                 <MdModeEdit color="#5f7dec" size={20} />
               </button>
               <button type="button">
-                <MdCheck color="#30cf3d" size={20} />
+                <MdCheck color="#218f2a" size={20} />
               </button>
             </div>
           </Note>
