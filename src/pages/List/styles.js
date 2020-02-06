@@ -34,6 +34,21 @@ export const Container = styled.div`
     }
   }
 
+  > div {
+    background: #fbfef9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 20px;
+
+    span {
+      font-size: 20px;
+      color: #333;
+    }
+  }
+
   ul {
     background: #fbfef9;
     padding: 20px;
