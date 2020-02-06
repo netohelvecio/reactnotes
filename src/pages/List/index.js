@@ -9,6 +9,7 @@ import { Container, Note } from './styles';
 
 export default function List({ history }) {
   const [notes, setNotes] = useState([]);
+  const [notesWithFilter, setNotesWithFilter] = useState([]);
 
   function navigateToAdd() {
     history.push('/add');
@@ -22,7 +23,8 @@ export default function List({ history }) {
 
       const dataWithFilter = data.filter(item => item.check === false);
 
-      setNotes(dataWithFilter);
+      setNotesWithFilter(dataWithFilter);
+      setNotes(data);
     }
   }
 
@@ -56,13 +58,13 @@ export default function List({ history }) {
           </button>
         </header>
 
-        {!notes.length ? (
+        {!notesWithFilter.length ? (
           <div>
             <span>Sem notes cadastradas</span>
           </div>
         ) : (
           <ul>
-            {notes.map(note => (
+            {notesWithFilter.map(note => (
               <Note key={note.id}>
                 <span>{note.title}</span>
 
