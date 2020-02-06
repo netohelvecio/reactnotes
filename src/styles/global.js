@@ -14,8 +14,6 @@ export default createGlobalStyle`
   }
 
   html, body, #root {
-    height: 100%;
-    width: 100%;
     background: #ADDDDB;
   }
 
