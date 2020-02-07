@@ -16,7 +16,7 @@ Aplicação de bloco de notas feita com React. É possível criar e editar as no
 
 - Clonar repositório.
 - Executar comando `yarn` ou `npm install` para baixar as dependências.
-- Executar `yarn start` para iniciar app.
+- Executar `yarn start` ou `npm start` para iniciar app.
 
 ![Listagem](https://i.imgur.com/bV9UERY.png "Listagem de notas")
 
