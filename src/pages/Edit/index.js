@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import generateHash from 'random-hash';
 import { toast } from 'react-toastify';
 
 import { Container } from './styles';
