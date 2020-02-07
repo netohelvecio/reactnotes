@@ -1,6 +1,6 @@
 # ReactNotes
 
-Aplicação de bloco de notas feita com React. É possível criar e editar as notas. Além disso marcar as notas como realizadas. Listagem de notas realiazadas e não realizadas.
+Aplicação de bloco de notas feita com React. É possível criar e editar as notas. Além disso marcar as notas como realizadas. Listagem de notas realizadas e não realizadas.
 
 ## Bibliotecas e dependências utilizadas
 
@@ -15,7 +15,7 @@ Aplicação de bloco de notas feita com React. É possível criar e editar as no
 ## Instruções para executar projeto
 
 - Clonar repositório.
-- Executar comando `yarn` ou `npm install` para as dependências.
+- Executar comando `yarn` ou `npm install` para baixar as dependências.
 - Executar `yarn start` para iniciar app.
 
 ![Listagem](https://i.imgur.com/bV9UERY.png "Listagem de notas")
